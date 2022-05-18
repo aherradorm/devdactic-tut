@@ -22,7 +22,7 @@ export class DataService {
   }
 
   getNoteById(id): Observable<Note>{
-    const noteDocRef = doc(this.firestore, `notes/$id`);
+    const noteDocRef = doc(this.firestore, `notes/${id}`);
     return docData(noteDocRef, {idField: 'id'}) as Observable<Note>;
   }
 
