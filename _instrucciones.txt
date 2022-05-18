@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=8cp8GP-dXbY&t=946s
+
+
+ionic start devdacticFire blank --type=angular --capacitor
+cd ./devdacticFire 
+
+ionic g page modal
+ionic g service services/data
+
+ng add @angular/fire
+
+
+En Firebase
+    crear proyecto devdactic-tut
+    agregar Firebase a la app
+    nombre: app (doesn't really matter dice)
+
+    pillar las keys y pegarlas en enviroments.ts
+
+Consola Firebase
+    seleccionar Firestore Database y crear una BD en modo test
